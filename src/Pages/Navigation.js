@@ -1,10 +1,11 @@
 import { BrowserRouter, NavLink } from "react-router-dom"
 const Navigation = () => (
+
     <BrowserRouter forceRefresh={true}>
-        
-        <NavLink to="/" className="text-3xl">Home</NavLink>
-        <NavLink to="/games" className="text-3xl">Games</NavLink>
+        <NavLink to="/" className="text-3xl m-3">Home</NavLink>
+        <NavLink to="/cv" className="text-3xl m-3">CV</NavLink>
     </BrowserRouter>
+    
 )   
 const activeClassName = 'nav-item-active'
 

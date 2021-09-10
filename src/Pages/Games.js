@@ -1,11 +1,18 @@
-
+import Project from './Project'
 const Games = () => {
 return (
-    <div className="bg-cover bg-gradient-to-r from-green-400 to-blue-500">
+    <div className="">
+      <h1 className="font-mono text-white text-9xl">Projects</h1>
+      <div className="grid grid-cols-3 m-5">
+        
+        <Project name="Prosjekt 1" imglink="https://via.placeholder.com/150"/>
+        <Project name="Prosjekt 2" imglink="https://via.placeholder.com/150"/>
+        <Project name="Prosjekt 3" imglink="https://via.placeholder.com/150"/>
+        <Project name="Prosjekt 4" imglink="https://via.placeholder.com/150"/>
+        <Project name="Prosjekt 5" imglink="https://via.placeholder.com/150"/>
+        <Project name="Prosjekt 6" imglink="https://via.placeholder.com/150"/>
 
-      <header className="flex flex-col items-center min-h-screen justify-center ">
-        <h1 className="font-mono tracking-widest text-white text-9xl">the game lmao</h1>
-      </header>
+      </div>
     </div>
   );
 }

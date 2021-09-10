@@ -3,36 +3,38 @@ import {
   Switch,
   Route
 } from 'react-router-dom';
-
-import inkaLogo from './inkaicon.png';
 import Games from './Pages/Games';
 import Home from './Pages/Home';
-import Navigation from './Pages/Navigation';
+import Navigation from './Pages/Navigation'
+import CV from './Pages/CV';
 
 function App() {
+
   return (
-    <div className="text-center bg-contain bg-gradient-to-r from-green-400 to-blue-500">
-      <div className="flex justify-center break-normal">
-       <h1 className="text-9xl">Patrick Projects</h1>
+    <div className="text-center bg-contain bg-gradient-to-r from-red-100 to-blue-300">
+      <div className="shadow-2xl p-5">
+        <h1 className="text-9xl align-top">Patrick</h1>
+        <Navigation/>
       </div>
-      <Navigation/>
       
       <BrowserRouter>      
         <Switch>
 
         <Route exact path="/">
           <Home/>
+          <Games/>
         </Route>
       
-        <Route to path="/games">
-          <Games/>
+        <Route to path="/cv">
+          <CV/>
         </Route>
         
         </Switch> 
       
       </BrowserRouter>
-
+      
       </div>
+      
   );
 }
 
