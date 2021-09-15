@@ -2,8 +2,8 @@ import Project from './Project'
 const Games = () => {
 return (
     <div className="">
-      <h1 className="font-mono text-white text-9xl">Projects</h1>
-      <div className="grid grid-cols-3 m-5">
+      <h1 className="font-mono text-white text-5xl md:text-6xl lg:text-9xl">Projects</h1>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 m-5">
         
         <Project name="Prosjekt 1" imglink="https://via.placeholder.com/150"/>
         <Project name="Prosjekt 2" imglink="https://via.placeholder.com/150"/>

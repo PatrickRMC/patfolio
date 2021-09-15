@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="text-center bg-contain bg-gradient-to-r from-red-100 to-blue-300">
       <div className="shadow-2xl p-5">
-        <h1 className="text-9xl align-top">Patrick</h1>
+        <h1 className="text-5xl md:text-6xl lg:text-9xl align-top">Patrick</h1>
         <Navigation/>
       </div>
       
