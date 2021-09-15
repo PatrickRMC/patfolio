@@ -17,9 +17,9 @@ function App() {
         <Navigation/>
       </div>
       
-      <BrowserRouter>      
+      <BrowserRouter basename="/patfolio">      
         <Switch>
-
+          
         <Route exact path="/">
           <Home/>
           <Games/>
