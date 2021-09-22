@@ -1,8 +1,10 @@
 import {
   BrowserRouter,
   Switch,
+  HashRouter,
   Route
 } from 'react-router-dom';
+
 import Games from './Pages/Games';
 import Home from './Pages/Home';
 import Navigation from './Pages/Navigation'
@@ -20,7 +22,7 @@ function App() {
         <Navigation/>
       </div>
       
-      <BrowserRouter basename="/">      
+      <HashRouter basename="/">      
         <Switch>
           
         <Route exact path="/">
@@ -34,9 +36,10 @@ function App() {
         
         </Switch> 
       
-      </BrowserRouter>
+      </HashRouter>
       <Footer/>
       </FadeIn>
+
       
   );
 }

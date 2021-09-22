@@ -9571,7 +9571,7 @@
     "strip-ansi" "6.0.0"
     "text-table" "0.2.0"
 
-"react-dom@*", "react-dom@^15.5.4 || ^16.0.0 || ^17.0.0", "react-dom@^17.0.2":
+"react-dom@*", "react-dom@^15.5.4 || ^16.0.0 || ^17.0.0", "react-dom@^17.0.2", "react-dom@17.0.x":
   "integrity" "sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA=="
   "resolved" "https://registry.yarnpkg.com/react-dom/-/react-dom-17.0.2.tgz"
   "version" "17.0.2"
@@ -9719,7 +9719,19 @@
     "lodash.throttle" "^4.1.1"
     "prop-types" "^15.7.2"
 
-"react@*", "react@^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "react@^15.5.4 || ^16.0.0 || ^17.0.0", "react@^16.8 || 17", "react@^17.0.2", "react@>= 16", "react@>=15", "react@17.0.2":
+"react-spotify-embed@^0.2.3":
+  "integrity" "sha512-T4ceNkGn5M1ry/Y39I8HyhjSxeF2qv2W4uSK8XoB12r4PWPSQyuX3LOcVV/1mycQQUzPQlgwT1E6KGITEjvcJg=="
+  "resolved" "https://registry.npmjs.org/react-spotify-embed/-/react-spotify-embed-0.2.3.tgz"
+  "version" "0.2.3"
+
+"react-twitch-embed-video@^3.0.1":
+  "integrity" "sha512-HT3MVwGwoB2pL1K6csOtmoh2iRtxSsVilMh1NqfM8J1m68n7xTiNjjM9Uii9xUSkYLwz4yB0uwHSerI0VG+isQ=="
+  "resolved" "https://registry.npmjs.org/react-twitch-embed-video/-/react-twitch-embed-video-3.0.1.tgz"
+  "version" "3.0.1"
+  dependencies:
+    "window-or-global" "^1.0.1"
+
+"react@*", "react@^0.14.0 || ^15.0.0 || ^16.0.0 || ^17.0.0", "react@^15.5.4 || ^16.0.0 || ^17.0.0", "react@^16.8 || 17", "react@^17.0.2", "react@>= 16", "react@>=15", "react@>=16", "react@17.0.2", "react@17.0.x":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.yarnpkg.com/react/-/react-17.0.2.tgz"
   "version" "17.0.2"
@@ -11997,6 +12009,11 @@
   "version" "2.0.2"
   dependencies:
     "isexe" "^2.0.0"
+
+"window-or-global@^1.0.1":
+  "integrity" "sha1-2+RboqKRqrxW1iz2bEW3+jIpRt4="
+  "resolved" "https://registry.npmjs.org/window-or-global/-/window-or-global-1.0.1.tgz"
+  "version" "1.0.1"
 
 "word-wrap@^1.2.3", "word-wrap@~1.2.3":
   "integrity" "sha512-Hz/mrNwitNRh/HUAtM/VT/5VH+ygD6DV7mYKZAtHOrbs8U7lvPS6xf7EJKMF0uW1KJCl0H701g3ZGus+muE5vQ=="

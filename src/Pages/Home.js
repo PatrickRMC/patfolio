@@ -1,11 +1,13 @@
-import Portrait from "../../src/punk.png"
+import Portrait from "../Pictures/picicon.png";
+
 const Home = () => {
   return (
     <div className="shadow-2xl grid sm:grid-cols-1 md:grid-cols-3 place-content-center m-16 p-4">
           
-          <h1 className="text-coolyellow mx-sm px-8 text-3xl lg:text-6xl">Patrick RMC
+          <h1 className="text-coolyellow mx-sm px-8 text-3xl lg:text-6xl">Patrick
                 <h1 className="text-coolorange text-sm md:text-md lg:text-lg">
-                      I make games for fun.
+                      I'm a 17 year old game developer from Norway. I have been making games using
+                      Unity and Godot since 2017 and I've participated in over 30 gamejams since I started.
                 </h1>
               
           </h1>
@@ -15,8 +17,8 @@ const Home = () => {
             Contact me!
                
                 <h1 className="text-coolorange text-sm md:text-md lg:text-lg">
-                      patrick.romeo.c@gmail.com ||
-                      +47 466 11 529
+                  <a href="mailto:patrick.romeo.c@gmail.com" target="_blank" className="underline hover:text-coollightblue">Email me </a>
+                  <p className="text-sm italic">(patrick.romeo.c@gmail.com)</p>
                 </h1>
                
                 <h1 className="text-sm md:text-md lg:text-lg"></h1>
