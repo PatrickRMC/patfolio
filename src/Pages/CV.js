@@ -1,9 +1,8 @@
 
 const Cv = () => {
   return (
-    <div className="grid grid-cols-3 place-content-center m-10">
-        12 years of school soon
-        i make game since 2017
+    <div className="place-content-center m-10">
+         <a className="text-white text-lg md:text-xl lg:text-2xl underline" href="/files/PatrickCV.docx" download>Download my CV (~18kb)</a>
     </div>
   );
 }

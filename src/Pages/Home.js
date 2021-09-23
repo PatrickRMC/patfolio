@@ -18,7 +18,7 @@ const Home = () => {
                
                 <h1 className="text-coolorange text-sm md:text-md lg:text-lg">
                   <a href="mailto:patrick.romeo.c@gmail.com" target="_blank" className="underline hover:text-coollightblue">Email me </a>
-                  <p className="text-sm italic">(patrick.romeo.c@gmail.com)</p>
+                  <p className="text-sm italic">(patrick.romeo.c@gmail.com) </p>
                 </h1>
                
                 <h1 className="text-sm md:text-md lg:text-lg"></h1>

@@ -12,7 +12,6 @@ import CV from './Pages/CV';
 import Footer from './Pages/Footer';
 import FadeIn from 'react-fade-in';
 
-
 function App() {
 
   return (
@@ -29,14 +28,10 @@ function App() {
           <Home/>
           <Games/>
         </Route>
-      
-        <Route to path="/cv">
-          <CV/>
-        </Route>
         
         </Switch> 
-      
       </HashRouter>
+      <CV/>
       <Footer/>
       </FadeIn>
 
