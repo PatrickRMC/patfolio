@@ -9,7 +9,7 @@ module.exports = {
           vsm: '500px',
         },     
         colors:{
-          coolblack: '#023047',
+          coolblack: '#161b2e',
           coollightblue: '#8ecae6',  
           coolyellow: '#ffb703',
           coolorange: '#fb8500'
